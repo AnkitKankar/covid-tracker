@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Provide the mongodb atlas url to connect python to mongodb using pymongo
 # CONNECTION_STRING = "mongodb+srv://admin:admin123@cluster0.wm8q8.mongodb.net/covid_tracker"
 
-CONNECTION_STRING ="mongodb+srv://admin:admin@cluster0.wm8q8.mongodb.net/covid_tracker"
+CONNECTION_STRING ="mongodb+srv://admin:admin123@cluster0.wm8q8.mongodb.net/covid_tracker"
 # ?retryWrites=true&w=majority
 client = MongoClient(CONNECTION_STRING)
 
